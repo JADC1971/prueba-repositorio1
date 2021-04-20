@@ -19,9 +19,18 @@ public class Principal {
         // Ejercicio14();
         // Ejercicio15();
         // Ejercicio16();
-        Ejercicio17();
+        // Ejercicio17();
+        pruebaGit();
 
 
+    }
+
+    private static void pruebaGit() {
+        Operacion op = new Operacion(6, 2);
+        System.out.println("La suma es: " + op.suma());
+        System.out.println("La resta es: " + op.resta());
+        System.out.println("La division es: " + op.divide());
+        System.out.println("La multiplicación es: " + op.multiplica());
     }
 
     private static void Ejercicio17() {
